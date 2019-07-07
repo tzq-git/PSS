@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="edu-pss:war">
+    <output-path>$PROJECT_DIR$/edu-pss/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>edu-pss</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="edu-pss.war">
+      <element id="artifact" artifact-name="edu-pss:war exploded" />
+    </root>
+  </artifact>
+</component>

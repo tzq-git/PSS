@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="edu-mvc00:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85b6dc18-e169-4b00-984b-5d5ec304d8e2" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/prjweb/target/" />
+    <ignored path="$PROJECT_DIR$/prj-web/target/" />
+    <ignored path="$PROJECT_DIR$/prj-web01/target/" />
+    <ignored path="$PROJECT_DIR$/edu-mvc00/target/" />
+    <ignored path="$PROJECT_DIR$/edu-mvc01/target/" />
+    <ignored path="$PROJECT_DIR$/edu-pss/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="jsf" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gid</find>
+      <find>price</find>
+      <find>style=&quot;border:0px solid white; width:200px&quot;</find>
+      <find>最后</find>
+      <find>goods</find>
+      <find>num1</find>
+      <find>RPurchase</find>
+      <find>isChinese</find>
+      <find>Date</find>
+      <find>日期</find>
+      <find>String</find>
+      <find>Customer</find>
+      <find>customer</find>
+      <find>会员</find>
+      <find>cid</find>
+      <find>H-ui</find>
+      <find>href</find>
+      <find>./</find>
+      <find>PV</find>
+      <find>menu-admin</find>
+      <find>ConstClass</find>
+      <find>Hui-userbar</find>
+      <find>BG_LOGINUSER_KEY</find>
+      <find>Gse</find>
+      <find>reset</find>
+      <find>rese</find>
+      <find>update</find>
+      <find>DownloadtableName</find>
+      <find>label</find>
+      <find>库存查询</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>gid</replace>
+      <replace>Customer</replace>
+      <replace>cid</replace>
+      <replace>customer</replace>
+      <replace>S.sCName</replace>
+      <replace>provider</replace>
+      <replace>Provider</replace>
+      <replace>pid</replace>
+      <replace>OutDate</replace>
+      <replace>购入</replace>
+      <replace>Purchase</replace>
+      <replace>purchase</replace>
+      <replace>purchaseId</replace>
+      <replace>RPurchase</replace>
+      <replace>outDate</replace>
+      <replace>rPurchaseId</replace>
+      <replace>退货</replace>
+      <replace>rPurchase</replace>
+      <replace>GSearch</replace>
+      <replace>UIconst</replace>
+      <replace>status</replace>
+      <replace>Status</replace>
+      <replace>gName</replace>
+      <replace>Out</replace>
+      <replace>DealRecord</replace>
+      <replace>dealRecord</replace>
+      <replace>orderId</replace>
+      <replace>${pageContext.request.contextPath}/static/X-admin/</replace>
+      <replace>UIConst</replace>
+      <replace>downloadtableName</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/bean/DealRecord.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/bean/OutBound.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/bean/Provider.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/bean/RPurchase.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/bean/SalePerson.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/dao/AuthorityDao.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/dao/impl/AuthorityDaoImpl.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/service/impl/AuthorityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/filter/LoginFilter.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/RejectServlet.java" />
+        <option value="$PROJECT_DIR$/edu-pss/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/dao/impl/CustomerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/dao/impl/DealRecordDaoImpl.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/dao/GoodsDao.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/dao/impl/GoodsDaoImpl.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/service/impl/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/resources/c3p0-config.xml" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/webapp/static/X-admin/lib/layui/lay/modules/layer.js" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/UIConst.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/resources/app.properties" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Authority_admin.jsp" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/404.jsp" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/User_Pwd_Reset.jsp" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/service/UserService.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/UserServlet.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/bean/Goods.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/service/PurchaseService.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/service/impl/PurchaseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/util/ExcelUtil.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/bean/Purchase.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Goods_list.jsp" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/User_Info.jsp" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Login.jsp" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/filter/LoginFilter.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Purchase_list.jsp" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/DownloadServlet.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Download.jsp" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Main.jsp" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/SaleReturn_list.jsp" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/bean/SaleReturn.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Customer_list.jsp" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/403.jsp" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/filter/AuthorityFilter.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/AuthorityServlet.java" />
+        <option value="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/MainServlet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/IDE/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="315" />
+    <option name="y" value="42" />
+    <option name="width" value="1269" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>Google App Engine</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSF annotated elements errors</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>SetupSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ws_prj1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-pss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ws_prj1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-pss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ws_prj1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-pss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ws_prj1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-pss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ws_prj1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-pss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ctrl00" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ws_prj1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-pss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ws_prj1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-pss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/LOWE/Desktop/github/ws_prj/edu-pss/src/main/java/edu/pss/dao/impl/SalePersonDaoImpl.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/edu-pss/src/main/webapp/static" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tzq\IdeaProjects\ws_prj1\edu-pss\src\main\webapp\static" />
+      <recent name="C:\Users\Tzq\IdeaProjects\ws_prj1\edu-pss\src\main\webapp\WEB-INF\view00" />
+      <recent name="C:\Users\Tzq\IdeaProjects\ws_prj1\edu-pss\src\main\java" />
+      <recent name="C:\Users\Tzq\IdeaProjects\ws_prj1\edu-pss\src\main\java\edu\pss\ui\ctrl00" />
+      <recent name="C:\Users\Tzq\IdeaProjects\ws_prj1\edu-pss\src\main\java\edu\pss\service\impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.pss.util" />
+      <recent name="edu.pss.ui.ctrl00" />
+      <recent name="edu.pss.dao.impl" />
+      <recent name="edu.pss.dao" />
+      <recent name="edu.pss.bean" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LOWE\Desktop\github\ws_prj\edu-pss\src\main\webapp" />
+      <recent name="C:\Users\LOWE\Desktop\github\ws_prj\edu-pss\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\LOWE\Desktop\github\ws_prj\edu-mvc00\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\LOWE\Desktop\github\ws_prj\edu-mvc00\src\main" />
+      <recent name="C:\Users\LOWE\Desktop\github\ws_prj\edu-mvc00\src\main\webapp\java\edu\uc\util" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.edu-pss [jetty:run]">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartMember" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.uc.ui.cli.StartMember" />
+      <module name="edu-mvc00" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uc.ui.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartNewsCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.uc.ui.cli.StartNewsCat" />
+      <module name="edu-mvc00" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uc.ui.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="prjweb" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edu-mvc00 [jetty:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/edu-mvc00" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="edu-pss [jetty:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/edu-pss" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.24" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_131\jre">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="edu-mvc00:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_ws_prj" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53621" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="edu-mvc00:war" />
+          <artifact name="edu-mvc00:war exploded" />
+          <artifact name="edu-mvc01:war" />
+          <artifact name="edu-pss:war" />
+          <artifact name="edu-mvc01:war exploded" />
+          <artifact name="edu-pss:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.24" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_131\jre">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="edu-mvc00:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+        <artifact name="edu-mvc01:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_ws_prj" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53621" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="edu-mvc00:war" />
+          <artifact name="edu-mvc00:war exploded" />
+          <artifact name="edu-mvc01:war" />
+          <artifact name="edu-pss:war" />
+          <artifact name="edu-mvc01:war exploded" />
+          <artifact name="edu-pss:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.StartMember" />
+      <item itemvalue="Application.StartNewsCat" />
+      <item itemvalue="Maven.edu-mvc00 [jetty:run]" />
+      <item itemvalue="Maven.edu-pss [jetty:run]" />
+      <item itemvalue="Tomcat Server.index.jsp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.edu-pss [jetty:run]" />
+        <item itemvalue="Tomcat Server.index.jsp" />
+        <item itemvalue="Maven.edu-mvc00 [jetty:run]" />
+        <item itemvalue="Application.StartMember" />
+        <item itemvalue="Application.StartNewsCat" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85b6dc18-e169-4b00-984b-5d5ec304d8e2" name="Default" comment="" />
+      <created>1560782403397</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560782403397</updated>
+      <workItem from="1560782408524" duration="859000" />
+      <workItem from="1560784314662" duration="2526000" />
+      <workItem from="1560786911546" duration="1777000" />
+      <workItem from="1560818536326" duration="817000" />
+      <workItem from="1560827727977" duration="2183000" />
+      <workItem from="1560830012293" duration="468000" />
+      <workItem from="1560838860679" duration="9423000" />
+      <workItem from="1560865615682" duration="3451000" />
+      <workItem from="1560904710716" duration="10670000" />
+      <workItem from="1560916251014" duration="601000" />
+      <workItem from="1560924376918" duration="439000" />
+      <workItem from="1560925137166" duration="7029000" />
+      <workItem from="1560932286576" duration="978000" />
+      <workItem from="1560953089667" duration="3376000" />
+      <workItem from="1560991181091" duration="5771000" />
+      <workItem from="1560997187070" duration="6941000" />
+      <workItem from="1561010795729" duration="2444000" />
+      <workItem from="1561014091392" duration="6499000" />
+      <workItem from="1561039949846" duration="1098000" />
+      <workItem from="1561041355326" duration="1421000" />
+      <workItem from="1561042840992" duration="2654000" />
+      <workItem from="1561077443172" duration="24196000" />
+      <workItem from="1561129205195" duration="3845000" />
+      <workItem from="1561167945329" duration="17835000" />
+      <workItem from="1561190180624" duration="3164000" />
+      <workItem from="1561297142287" duration="12703000" />
+      <workItem from="1561337646966" duration="2023000" />
+      <workItem from="1561341878512" duration="10033000" />
+      <workItem from="1561428582911" duration="6989000" />
+      <workItem from="1561536353353" duration="7133000" />
+      <workItem from="1561600481878" duration="18518000" />
+      <workItem from="1561685749109" duration="19117000" />
+      <workItem from="1561773701041" duration="15052000" />
+      <workItem from="1561941981985" duration="2928000" />
+      <workItem from="1561945672248" duration="22803000" />
+      <workItem from="1562028967623" duration="20938000" />
+      <workItem from="1562115170296" duration="26065000" />
+      <workItem from="1562202246782" duration="6849000" />
+      <workItem from="1562222485519" duration="14540000" />
+      <workItem from="1562288664697" duration="15265000" />
+      <workItem from="1562337027017" duration="58000" />
+      <workItem from="1562374627992" duration="1615000" />
+      <workItem from="1562379383590" duration="35381000" />
+      <workItem from="1562464970496" duration="10658000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="369133000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8648148" visible="true" weight="0.24763833" />
+      <window_info id="Structure" order="1" sideWeight="0.8378378" weight="0.24966262" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.13518518" side_tool="true" visible="true" weight="0.24763833" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49573562" weight="0.08175182" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.21167883" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.31532848" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5042644" side_tool="true" weight="0.2423913" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3195652" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.34565216" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32846716" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32934782" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966262" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32928476" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.19189766" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.3299595" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7116212" visible="true" weight="0.1748401" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.28837878" side_tool="true" visible="true" weight="0.1748401" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49573562" visible="true" weight="0.2423913" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39891306" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32934782" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5042644" side_tool="true" weight="0.2423913" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3195652" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.34565216" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32934782" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32934782" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32942432" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.19189766" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/GoodsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/GSearchServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="136" column="16" lean-forward="true" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="343" column="22" lean-forward="true" selection-start-line="343" selection-start-column="22" selection-end-line="343" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="85" column="36" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/User_Pwd_Change.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/User_Pwd_Reset.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Customer_detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="66" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Goods_detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="80" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+          <folding>
+            <element signature="method#resetView#0;class#UserServlet#0" />
+            <element signature="method#resetDeal#0;class#UserServlet#0" />
+            <element signature="method#autuorityView#0;class#UserServlet#0" />
+            <element signature="method#detailView#0;class#UserServlet#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/500.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/dao/impl/GoodsDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="549" column="30" selection-start-line="549" selection-start-column="23" selection-end-line="549" selection-end-column="30" />
+          <folding>
+            <element signature="e#14006#14013#0" expanded="true" />
+            <element signature="e#14114#14122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/service/PurchaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/service/impl/PurchaseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/dao/impl/PurchaseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="47" column="43" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="43" />
+          <folding>
+            <element signature="method#list#0;class#PurchaseDaoImpl#0" />
+            <element signature="method#insert#0;class#PurchaseDaoImpl#0" />
+            <element signature="e#3202#3226#0" />
+            <element signature="method#update#0;class#PurchaseDaoImpl#0" />
+            <element signature="method#delete#0;class#PurchaseDaoImpl#0" />
+            <element signature="method#load#0;class#PurchaseDaoImpl#0" />
+            <element signature="method#loadByName#0;class#PurchaseDaoImpl#0" />
+            <element signature="method#toBean#0;class#PurchaseDaoImpl#0" />
+            <element signature="method#toBeanEX#0;class#PurchaseDaoImpl#0" />
+            <element signature="method#count#0;class#PurchaseDaoImpl#0" />
+            <element signature="method#pager#0;class#PurchaseDaoImpl#0" />
+            <element signature="method#countByName#0;class#PurchaseDaoImpl#0" />
+            <element signature="method#pagerByName#0;class#PurchaseDaoImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/User_insert.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/User_Info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/User_detail.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/User_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2450">
+          <caret line="110" column="39" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/SaleReturn_update.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/SaleReturn_insert.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/SaleReturn_detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/RPurchase_insert.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/RPurchase_detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/static/H-ui.admin/static/h-ui/css/H-ui.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="11" column="30925" selection-start-line="11" selection-start-column="30925" selection-end-line="11" selection-end-column="30925" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Purchase_update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1450">
+          <caret line="58" column="96" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/static/background3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/OutBound_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="117" column="40" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/util/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/bean/SaleReturn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/bean/SalePerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-350">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/bean/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/bean/Purchase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/SaleReturn_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Purchase_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="93" column="52" lean-forward="true" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Goods_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="98" column="15" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Download.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="77" column="17" lean-forward="true" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/DownloadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="113" column="26" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Customer_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="130" column="20" lean-forward="true" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/403.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Authority_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="86" column="73" selection-start-line="86" selection-start-column="67" selection-end-line="86" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/AuthorityServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1688">
+          <caret line="249" column="19" selection-start-line="249" selection-start-column="19" selection-end-line="249" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Authority_admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2450">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/filter/AuthorityFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-800">
+          <caret line="102" column="59" selection-start-line="102" selection-start-column="53" selection-end-line="102" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/GSearch_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/MainServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="method#doGet#0;class#MainServlet#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>prj-web:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (edu-pss)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>edu-pss</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.liuvei.common:liuvei-common:1.0.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
