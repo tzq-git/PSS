@@ -284,11 +284,12 @@ public class PurchaseServlet extends HttpServlet {
 
         //判断是否能够更新最后购买时间
         Goods goods = new GoodsDaoImpl().load(Long.parseLong(gid));
-        if (goods.getLastBuyTime().toString().compareTo(buyDate)<0){
+        if (goods.getLastBuyTime()==null||goods.getLastBuyTime().toString().compareTo(buyDate)<0){
             SimpleDateFormat simpleDateFormat =new SimpleDateFormat("yyyy-MM-dd");
             try {
                 //更新最后购买时间
                 goods.setLastBuyTime(simpleDateFormat.parse(buyDate));
+                new GoodsServiceImpl().update(goods);
             } catch (ParseException e) {
                 e.printStackTrace();
             }
@@ -572,9 +573,9 @@ public class PurchaseServlet extends HttpServlet {
 
         if (!SysFun.isNullOrEmpty(vId)) {
             Long iId = SysFun.parseLong(vId);
-            //删除更新商品数量
+      /*      //删除更新商品数量
             goods.setNowStock(goods.getNowStock()-purchase.getNum());
-            new GoodsServiceImpl().update(goods);
+            new GoodsServiceImpl().update(goods);*/
             //删除操作
             Long result = 0L;
             result = purchaseService.delete(iId);

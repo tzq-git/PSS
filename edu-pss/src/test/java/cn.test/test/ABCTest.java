@@ -23,7 +23,7 @@ import java.util.List;
 
 public class ABCTest {
 
-    /*@Test
+    @Test
     public void test() {
         String dealDateStr = "2018-01-07 11:11:11";
         Date dealDate = new Date();
@@ -88,7 +88,7 @@ public class ABCTest {
         user.setEmail("666666@163.com");
         userService.update(user) ;
 
-        *//*for(int i=0;i<10;i++){
+        /*for(int i=0;i<10;i++){
             user = new User();
             authority = new Authority();
 
@@ -106,7 +106,7 @@ public class ABCTest {
             authority.setUserId(id);
             authority.setUserName("user"+i);
             authorityService.insert(authority);
-        }*//*
+        }*/
     }
 
     @Test
@@ -146,7 +146,7 @@ public class ABCTest {
         String enty1 = DigestUtils.md5Hex("admin");
         System.out.println(enty);
         System.out.println(enty1);
-    }*/
+    }
 
     /*select * from test
     where date_format(create_time,'%Y-%m-%d') between '2018-07-30' and '2018-07-31';*/

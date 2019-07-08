@@ -238,20 +238,9 @@ public class PurchaseDaoImpl  implements PurchaseDao {
         Object[] params = paramsList.toArray();
 
         Connection conn = null;
-        try{
+        conn = DbUtil.getConn();
 
-            conn = DbUtil.getConn();
-
-            result = DbFun.update(conn, sql, params);
-
-        }catch (Exception e){
-            e.printStackTrace();
-            throw new RuntimeException(e);
-        }finally {
-            DbUtil.close(conn);
-        }
-
-        //删除之后开始执行减少相应商品的存量
+        //删除时执行减少相应商品的存量
         Purchase bean = load(id);
         List<Object> paramsList1 = new ArrayList<Object>();
         StringBuffer sbSQL1 = new StringBuffer();
@@ -265,6 +254,8 @@ public class PurchaseDaoImpl  implements PurchaseDao {
 
         try{
             DbFun.update(conn, sql1, params1);
+            //更新库存之后执行删除操作
+            result = DbFun.update(conn, sql, params);
         }catch (Exception e){
             e.printStackTrace();
             throw new RuntimeException(e);
@@ -272,7 +263,6 @@ public class PurchaseDaoImpl  implements PurchaseDao {
         }finally {
             DbUtil.close(conn);
         }
-
 
         return result;
     }

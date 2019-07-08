@@ -326,10 +326,11 @@ public class OutBoundServlet extends HttpServlet {
         //更新最后出库时间
         String lastDate = outDateStr.substring(0,10);
         System.out.println(lastDate);
-        if(goods.getLastSaleTime().toString().compareTo(lastDate)<0){
+        if(goods.getLastSaleTime()==null||goods.getLastSaleTime().toString().compareTo(lastDate)<0){
             SimpleDateFormat simpleDateFormat =new SimpleDateFormat("yyyy-MM-dd");
             try {
                 goods.setLastSaleTime(simpleDateFormat.parse(lastDate));
+                new GoodsServiceImpl().update(goods);
             } catch (ParseException e) {
                 e.printStackTrace();
             }
