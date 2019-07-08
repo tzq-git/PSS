@@ -6,81 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85b6dc18-e169-4b00-984b-5d5ec304d8e2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edu-pss/src/main/webapp/static/md5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edu-pss/src/test/java/cn.test/test/ABCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/dao/impl/PurchaseDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/dao/impl/PurchaseDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/filter/AuthorityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/filter/AuthorityFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/AuthorityServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/AuthorityServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/CustomerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/DealRecordServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/DealRecordServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/DownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/DownloadServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/GSearchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/GSearchServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/GoodsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/GoodsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/MainServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/OutBoundServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/OutBoundServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/ProviderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/ProviderServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/PurchaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/PurchaseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/RPurchaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/RPurchaseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/SalePersonServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/SalePersonServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/SaleReturnServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/SaleReturnServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/ui/ctrl00/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/Main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/User_Pwd_Change.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/User_Pwd_Change.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/User_Pwd_Reset.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/webapp/WEB-INF/view00/User_Pwd_Reset.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/webapp/static/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/src/main/webapp/static/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/webapp/static/background1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/webapp/static/background2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/src/main/webapp/static/background3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/app_data/log/syslog/2019-07-07.log" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/app_data/log/syslog/2019-07-07.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/dao/impl/PurchaseDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/dao/impl/PurchaseDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/filter/AuthorityFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/filter/AuthorityFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/AuthorityServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/AuthorityServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/CustomerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/DealRecordServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/DealRecordServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/DownloadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/DownloadServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/GSearchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/GSearchServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/GoodsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/GoodsServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/MainServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/OutBoundServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/OutBoundServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/ProviderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/ProviderServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/PurchaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/PurchaseServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/RPurchaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/RPurchaseServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/SalePersonServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/SalePersonServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/SaleReturnServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/SaleReturnServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/classes/edu/pss/ui/ctrl00/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/GSearch_005fform_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/GSearch_005fform_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Goods_005flist_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Goods_005flist_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Login_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Login_jsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Login_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Main_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Main_jsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Main_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Main_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/OutBound_005finsert_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/OutBound_005finsert_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/OutBound_005flist_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/OutBound_005flist_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Provider_005finsert_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Provider_005finsert_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Provider_005flist_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Provider_005flist_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Purchase_005finsert_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Purchase_005finsert_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/SaleReturn_005flist_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/SaleReturn_005flist_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Welcome_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/Welcome_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/_005f_005fpager_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/_005f_005fpager_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/_403_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/_403_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/_404_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-pss/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view00/_404_jsp.java" beforeDir="false" />
-    </list>
+    <list default="true" id="85b6dc18-e169-4b00-984b-5d5ec304d8e2" name="Default" comment="&quot;backups&quot;" />
     <ignored path="$PROJECT_DIR$/prjweb/target/" />
     <ignored path="$PROJECT_DIR$/prj-web/target/" />
     <ignored path="$PROJECT_DIR$/prj-web01/target/" />
@@ -111,21 +37,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/edu-pss/src/test/java/cn.test/test/ABCTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/dao/impl/SaleReturnDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="94">
-              <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+              <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -407,6 +324,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -437,6 +355,14 @@
               <item name="edu-pss" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ws_prj1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-pss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -448,7 +374,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -869,7 +794,16 @@
       <workItem from="1562464970496" duration="16496000" />
       <workItem from="1562554654431" duration="7722000" />
       <workItem from="1562568723847" duration="637000" />
+      <workItem from="1562569439739" duration="377000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;backups&quot;">
+      <created>1562569816190</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562569816190</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -899,7 +833,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="383330000" />
+    <option name="totallyTimeSpent" value="383707000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -913,14 +847,14 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8437956" visible="true" weight="0.2557355" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.84233576" visible="true" weight="0.25978407" />
       <window_info id="Structure" order="1" sideWeight="0.81693363" weight="0.24966262" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Designer" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.15620437" side_tool="true" visible="true" weight="0.2557355" />
+      <window_info id="Web" order="7" sideWeight="0.15766424" side_tool="true" visible="true" weight="0.25978407" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49573562" weight="0.33576643" />
@@ -945,7 +879,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.19189766" />
-      <window_info anchor="right" id="Maven" order="9" visible="true" weight="0.3299595" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.3299595" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7116212" visible="true" weight="0.1748401" />
@@ -982,6 +916,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;backups&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;backups&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1640,17 +1578,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/dao/impl/SaleReturnDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/test/java/cn.test/test/ABCTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        <state relative-caret-position="175">
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edu-pss/src/test/java/cn.test/test/ABCTest.java">
+    <entry file="file://$PROJECT_DIR$/edu-pss/src/main/java/edu/pss/dao/impl/SaleReturnDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="94">
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
         </state>
       </provider>
     </entry>
