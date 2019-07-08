@@ -47,11 +47,11 @@ public class AuthorityServlet extends HttpServlet {
         java.io.PrintWriter out = response.getWriter();
         /* ----------------------------------------------------------------- */
 
-        String toURL = checkLogin(request, response);
+        /*String toURL = checkLogin(request, response);
         if ( toURL != null){
             response.sendRedirect(toURL);
             return ;
-        }
+        }*/
 
         // 取得操作类型
         String oper = request.getParameter("oper");
@@ -315,6 +315,14 @@ public class AuthorityServlet extends HttpServlet {
 
     }
 
+    /**
+     * 现在系统使用同一登录验证，无须在每个Servlet中进行验证
+     * @param request
+     * @param response
+     * @return
+     * @throws ServletException
+     * @throws IOException
+     */
     protected String checkLogin(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 

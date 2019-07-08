@@ -36,7 +36,7 @@
     <style>
     body{
         text-align:center;
-        background:url(${pageContext.request.contextPath}/static/background3.jpg)  no-repeat center center;
+        background:url(${pageContext.request.contextPath}/static/background.jpg)  no-repeat center center;
         background-size:cover;
         background-attachment:fixed;
         background-color:#CCCCCC;

@@ -47,11 +47,11 @@ public class GoodsServlet extends HttpServlet {
         /* ----------------------------------------------------------------- */
 
         //检测是否登录
-        String toURL = checkLogin(request,response);
+        /*String toURL = checkLogin(request,response);
         if(toURL != null){
             response.sendRedirect(toURL);
             return;
-        }
+        }*/
 
         // 取得操作类型
         String oper = request.getParameter("oper");
@@ -281,9 +281,9 @@ public class GoodsServlet extends HttpServlet {
 
         bean.setgName(gName);
         bean.setSaveStock(Double.parseDouble(saveStock));
-        bean.setNowStock(Double.parseDouble(saveStock));
-        bean.setBuyPrice(Double.parseDouble(saveStock));
-        bean.setPrice(Double.parseDouble(saveStock));
+        bean.setNowStock(Double.parseDouble(nowStock));
+        bean.setBuyPrice(Double.parseDouble(buyPrice));
+        bean.setPrice(Double.parseDouble(price));
 //        try {
 //            bean.setLastBuyTime(simpleDateFormat.parse(lastBuyTime));
 //            bean.setLastSaleTime(simpleDateFormat.parse(lastSaleTime));
@@ -298,7 +298,6 @@ public class GoodsServlet extends HttpServlet {
             result = goodsService.insert(bean);
         } catch (Exception e) {
             vMsg = "添加失败." + e.getMessage();
-            // TODO: handle exception
         }
         if (result > 0) {
             System.out.println("添加成功");
@@ -475,9 +474,9 @@ public class GoodsServlet extends HttpServlet {
         bean.setGid(iId);
         bean.setgName(gName);
         bean.setSaveStock(Double.parseDouble(saveStock));
-        bean.setNowStock(Double.parseDouble(saveStock));
-        bean.setBuyPrice(Double.parseDouble(saveStock));
-        bean.setPrice(Double.parseDouble(saveStock));
+        bean.setNowStock(Double.parseDouble(nowStock));
+        bean.setBuyPrice(Double.parseDouble(buyPrice));
+        bean.setPrice(Double.parseDouble(price));
 //        try {
 //            bean.setLastBuyTime(simpleDateFormat.parse(lastBuyTime));
 //            bean.setLastSaleTime(simpleDateFormat.parse(lastSaleTime));
@@ -553,19 +552,6 @@ public class GoodsServlet extends HttpServlet {
 
     }
 
-    protected String checkLogin(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-        javax.servlet.http.HttpSession session = req.getSession();
-        String toURL = null;
-        Object obj = session.getAttribute(UIConst.BG_LOGINUSER_KEY);
-
-        if(obj == null){
-            toURL = req.getContextPath() + UIConst.AREAPATH + "/Login";
-
-        }
-
-        return toURL;
-    }
 
 
 }

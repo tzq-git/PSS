@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/edu-mvc00/edu-mvc00.iml" filepath="$PROJECT_DIR$/edu-mvc00/edu-mvc00.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-pss/edu-pss.iml" filepath="$PROJECT_DIR$/edu-pss/edu-pss.iml" />
     </modules>
   </component>

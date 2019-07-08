@@ -675,7 +675,7 @@ public class OutBoundServlet extends HttpServlet {
     }
 
 
-    protected String checkLogin(HttpServletRequest request, HttpServletResponse response)
+    /*protected String checkLogin(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
         javax.servlet.http.HttpSession session = request.getSession();
@@ -685,8 +685,13 @@ public class OutBoundServlet extends HttpServlet {
             toURL = request.getContextPath() + UIConst.AREAPATH + "/Login";
         }
         return toURL;
-    }
+    }*/
 
+    /**
+     * 判读字符串中存储的是否为浮点数
+     * @param str  一个数字字符串
+     * @return
+     */
     public static boolean isNumeric(String str){
 
         Pattern pattern = Pattern.compile("^((0-9)+\\.[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*\\.[0-9]+)|([0-9]*[1-9][0-9]*)$");

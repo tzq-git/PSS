@@ -51,7 +51,7 @@
                         <ul class="dropDown-menu menu radius box-shadow">
                             <li><a href="javascript:;"
                                    onclick="myselfinfo('用户信息[id=${user.userId}]',
-                                           'User?oper=info', '700', '700')">个人信息</a></li>
+                                           'User?oper=info&id=${user.userId}', '700', '700')">个人信息</a></li>
                             <li><a href="javascript:;"
                                    onclick="resetPwd('修改密码[id=${user.userId}]',
                                            'User?oper=reset&id=${user.userId}&type=change', '600', '500')">修改密码</a></li>
@@ -62,9 +62,9 @@
                     <li id="Hui-msg"> <a href="#" title="消息"><span class="badge badge-danger">1</span><i class="Hui-iconfont" style="font-size:18px">&#xe68a;</i></a> </li>
                     <li id="Hui-skin" class="dropDown right dropDown_hover"> <a href="javascript:;" class="dropDown_A" title="换肤"><i class="Hui-iconfont" style="font-size:18px">&#xe62a;</i></a>
                         <ul class="dropDown-menu menu radius box-shadow">
-                            <li><a href="javascript:;" data-val="default" title="默认（黑色）">默认（黑色）</a></li>
+                            <li><a href="javascript:;" data-val="green" title="默认（绿色）">默认（绿色）</a></li>
                             <li><a href="javascript:;" data-val="blue" title="蓝色">蓝色</a></li>
-                            <li><a href="javascript:;" data-val="green" title="绿色">绿色</a></li>
+                            <li><a href="javascript:;" data-val="default" title="黑色">黑色</a></li>
                             <li><a href="javascript:;" data-val="red" title="红色">红色</a></li>
                             <li><a href="javascript:;" data-val="yellow" title="黄色">黄色</a></li>
                             <li><a href="javascript:;" data-val="orange" title="橙色">橙色</a></li>
@@ -146,13 +146,13 @@
             </dd>
         </dl>
         <dl id="menu-download">
-            <dt><i class="Hui-iconfont">&#xe613;</i> 资料下载<i
+            <dt><i class="Hui-iconfont">&#xe613;</i> 数据导出<i
                     class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i>
             </dt>
             <dd>
                 <ul>
                     <li><a data-href="Download?oper=list" data-title="资料下载"
-                           href="javascript:void(0)">资料下载</a></li>
+                           href="javascript:void(0)">表格下载</a></li>
                 </ul>
             </dd>
         </dl>

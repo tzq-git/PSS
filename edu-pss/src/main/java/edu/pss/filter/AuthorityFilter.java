@@ -80,7 +80,7 @@ public class AuthorityFilter implements Filter {
                     //普通用户
                     //修改密码操作，放行
                     if ( "change".equals(type) ||
-                            "info".equals(oper) && id.equals(user.getUserId()) ) //查看自己的详细信息，放行
+                            "info".equals(oper) && id.equals(user.getUserId().toString()) ) //查看自己的详细信息，放行
                         break;
                 }
                 //请求转发会主页面

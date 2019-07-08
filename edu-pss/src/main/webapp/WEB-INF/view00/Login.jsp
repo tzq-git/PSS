@@ -24,7 +24,7 @@
     <div class="message">进销存管理登录</div>
     <div id="darkbannerwrap"></div>
 
-    <form action="Login" method="post" class="layui-form" >
+    <form action="Login" onsubmit="MD5()" method="post" class="layui-form" >
         <input type="hidden" name="oper" value="logindeal"/>
 <%--        <div class="row cl">${msg}</div>--%>
         <input id="userName" name="userName" value="${userName}" placeholder="用户名"  type="text" lay-verify="required" class="layui-input" >
@@ -45,7 +45,17 @@
     </form>
 </div>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/X-admin/lib/layui/lay/modules/form.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/md5.js"></script>
 <script>
+
+    function MD5() {
+        var pwd = $('#userPwd');
+        var hash = hex_md5(pwd.val());
+        pwd.val(hash);
+    }
+</script>
+<script>
+
     if ( new String("${msg}").length>0 ){
         alert("${msg}");
     }

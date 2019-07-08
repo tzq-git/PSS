@@ -53,11 +53,11 @@ public class DownloadServlet extends HttpServlet {
     protected void downloadDeal(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         //验证是否登录
-        String toURL = checkLogin(request, response);
+        /*String toURL = checkLogin(request, response);
         if ( toURL != null){
             response.sendRedirect(toURL);
             return ;
-        }
+        }*/
 
         /*
         * 1.根据求参数获取对应得数据
@@ -167,7 +167,7 @@ public class DownloadServlet extends HttpServlet {
         out.close();
     }
 
-    protected String checkLogin(HttpServletRequest request, HttpServletResponse response)
+    /*protected String checkLogin(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
         javax.servlet.http.HttpSession session = request.getSession();
@@ -177,5 +177,5 @@ public class DownloadServlet extends HttpServlet {
             toURL = request.getContextPath() + UIConst.AREAPATH + "/Login";
         }
         return toURL;
-    }
+    }*/
 }

@@ -46,11 +46,11 @@ public class SalePersonServlet extends HttpServlet {
         /* ----------------------------------------------------------------- */
 
         //检测是否登录
-        String toURL = checkLogin(request,response);
+       /* String toURL = checkLogin(request,response);
         if(toURL != null){
             response.sendRedirect(toURL);
             return;
-        }
+        }*/
 
         // 取得操作类型
         String oper = request.getParameter("oper");
@@ -483,7 +483,7 @@ public class SalePersonServlet extends HttpServlet {
 
     }
 
-    protected String checkLogin(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    /*protected String checkLogin(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         javax.servlet.http.HttpSession session = req.getSession();
         String toURL = null;
@@ -495,7 +495,7 @@ public class SalePersonServlet extends HttpServlet {
         }
 
         return toURL;
-    }
+    }*/
 
 
 }

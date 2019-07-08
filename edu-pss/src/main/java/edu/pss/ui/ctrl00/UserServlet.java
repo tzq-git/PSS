@@ -160,8 +160,8 @@ public class UserServlet extends HttpServlet {
         Long result = 0L;
         String vMsg = "";
         // 如果验证失败,则将失败内容放到作用域变量,并转发到页面  z
-        if ( !newpss.equals(repss) || newpss.length()<6 || newpss.length()>20){
-            vMsg = "新密码长度超出范围，或新密码和确认密码不一致";
+        if ( !newpss.equals(repss) ){
+            vMsg = "新密码和确认密码不一致";
             request.setAttribute("msg", vMsg);
             System.out.println(vMsg);
             resetView(request, response);
@@ -185,6 +185,7 @@ public class UserServlet extends HttpServlet {
                 //修改成功后让session失效，用户重新登录
                 request.getSession().invalidate();
                 vMsg = "修改密码成功，请重新登录";
+                out.println("window.close();");
                 out.println("alert('"+vMsg+"');");
             }
             System.out.println("resetDeal: 修改成功");

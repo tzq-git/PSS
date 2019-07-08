@@ -32,11 +32,11 @@
         <form action="User" class="layui-form" id="objForm">
             <input type="hidden" name="oper" value="resetDeal" />
             <input type="hidden" name="id" value="${id}" />
-            <input type="hidden" name="type" value="change" />
+            <input type="hidden" name="type" value="reset" />
             <div class="layui-form-item">
-                <label for="L_username" class="layui-form-label">用户名称</label>
+                <label for="userName" class="layui-form-label">用户名称</label>
                 <div class="layui-input-inline">
-                    <input type="text" id="L_username" name="username" disabled="true"
+                    <input type="text" id="userName" name="userName" disabled="true"
                            value="${userName}" class="layui-input"></div>
             </div>
             <div class="layui-form-item">
@@ -71,11 +71,26 @@
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/H-ui.admin/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/H-ui.admin/lib/jquery.validation/1.14.0/validate-methods.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/H-ui.admin/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/md5.js"></script>
+<script>
+
+    function MD5() {
+        var newpwd = $('#newpass');
+        var repwd = $('#repass');
+        var hash1 = hex_md5(newpwd.val());
+        var hash2 = hex_md5(repwd.val());
+        newpwd.val(hash1);
+        repwd.val(hash2);
+    }
+</script>
+
 <script>
     $("#objForm").validate({
         rules:{
             newpass:{
                 required:true,
+                minlength:6,
+                maxlength:20,
             },
             repass:{
                 required:true,
@@ -95,6 +110,7 @@
         focusCleanup:true,
         success:"valid",
         submitHandler:function(form){
+            MD5();
             form.submit();
         }
     });

@@ -53,7 +53,7 @@ public class PurchaseDaoImpl  implements PurchaseDao {
 
         //  sbSQL.append(" select * from Purchase ");
 
-        sbSQL.append(" select P.*,G.gName from Purchase P left join Goods G on P.gid=G.gid where addedTime between  ?  and ?");
+        sbSQL.append(" select P.*,G.gName from Purchase P left join Goods G on P.gid=G.gid where buyDate between  ?  and ?");
 
         paramsList.add(year+"-1-1 00:00:00");
         paramsList.add(year+"-12-31 23:59:59");

@@ -35,9 +35,9 @@
             <input type="hidden" name="id" value="${user.userId}" />
             <input type="hidden" name="type" value="change" />
             <div class="layui-form-item">
-                <label for="L_username" class="layui-form-label">用户名称</label>
+                <label for="username" class="layui-form-label">用户名称</label>
                 <div class="layui-input-inline">
-                    <input type="text" id="L_username" name="userName" disabled="true"
+                    <input type="text" id="username" name="userName" disabled="true"
                            value="${user.userName}" class="layui-input"></div>
             </div>
             <div class="layui-form-item">
@@ -78,6 +78,21 @@
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/H-ui.admin/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/H-ui.admin/lib/jquery.validation/1.14.0/validate-methods.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/static/H-ui.admin/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/md5.js"></script>
+<script>
+
+    function MD5() {
+        var oldpwd = $('#oldpass');
+        var newpwd = $('#newpass');
+        var repwd = $('#repass');
+        var hash1 = hex_md5(newpwd.val());
+        var hash2 = hex_md5(repwd.val());
+        var hash3 = hex_md5(oldpwd.val());
+        newpwd.val(hash1);
+        repwd.val(hash2);
+        oldpwd.val(hash3);
+    }
+</script>
 <script>
     $("#objForm").validate({
         rules:{
@@ -112,6 +127,7 @@
         focusCleanup:true,
         success:"valid",
         submitHandler:function(form){
+            MD5();
             form.submit();
         }
     });

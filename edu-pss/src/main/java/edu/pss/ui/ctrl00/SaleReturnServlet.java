@@ -332,6 +332,13 @@ public class SaleReturnServlet extends HttpServlet {
             outBound.setStatus(1L);
             outBoundService.update(outBound);
             Long result = 0L;
+
+            //退货删除后减少对应商品的库存量
+            GoodsServiceImpl goodsService = new GoodsServiceImpl();
+            Goods goods = goodsService.loadByName(outBound.getgName());
+            goods.setNowStock(goods.getNowStock()-outBound.getNum());
+            goodsService.update(goods);
+
             //删除退货记录
             result = saleReturnService.delete(iId);
             if (result > 0) {
