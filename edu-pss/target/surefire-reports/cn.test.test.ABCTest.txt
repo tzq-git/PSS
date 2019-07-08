@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: cn.test.test.ABCTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.92 s <<< FAILURE! - in cn.test.test.ABCTest
+test2(cn.test.test.ABCTest)  Time elapsed: 3.386 s  <<< ERROR!
+java.lang.RuntimeException: java.lang.RuntimeException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'GName' cannot be null
+	at cn.test.test.ABCTest.test2(ABCTest.java:53)
+Caused by: java.lang.RuntimeException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'GName' cannot be null
+	at cn.test.test.ABCTest.test2(ABCTest.java:53)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'GName' cannot be null
+	at cn.test.test.ABCTest.test2(ABCTest.java:53)
+

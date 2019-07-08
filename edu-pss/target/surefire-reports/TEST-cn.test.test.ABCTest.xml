@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cn.test.test.ABCTest" time="5.92" tests="7" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="C:\Users\Tzq\IdeaProjects\ws_prj1\edu-pss\target\test-classes;C:\Users\Tzq\IdeaProjects\ws_prj1\edu-pss\target\classes;D:\javaroot\localRepository_global\commons-dbutils\commons-dbutils\1.6\commons-dbutils-1.6.jar;D:\javaroot\localRepository_global\mysql\mysql-connector-java\5.1.47\mysql-connector-java-5.1.47.jar;D:\javaroot\localRepository_global\org\apache\poi\poi\3.11\poi-3.11.jar;D:\javaroot\localRepository_global\org\apache\poi\poi-ooxml\3.11\poi-ooxml-3.11.jar;D:\javaroot\localRepository_global\org\apache\poi\poi-ooxml-schemas\3.11\poi-ooxml-schemas-3.11.jar;D:\javaroot\localRepository_global\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;D:\javaroot\localRepository_global\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\javaroot\localRepository_global\com\liuvei\common\liuvei-common\1.0.0\liuvei-common-1.0.0.jar;D:\javaroot\localRepository_global\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;D:\javaroot\localRepository_global\org\json\json\20160810\json-20160810.jar;D:\javaroot\localRepository_global\com\mchange\c3p0\0.9.5.2\c3p0-0.9.5.2.jar;D:\javaroot\localRepository_global\com\mchange\mchange-commons-java\0.2.11\mchange-commons-java-0.2.11.jar;D:\javaroot\localRepository_global\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;D:\javaroot\localRepository_global\javax\servlet\jsp\jsp-api\2.2\jsp-api-2.2.jar;D:\javaroot\localRepository_global\jstl\jstl\1.2\jstl-1.2.jar;D:\javaroot\localRepository_global\taglibs\standard\1.1.2\standard-1.1.2.jar;D:\javaroot\localRepository_global\junit\junit\4.11\junit-4.11.jar;D:\javaroot\localRepository_global\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Java\jdk1.8\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Tzq\AppData\Local\Temp\surefire1501358664640384527\surefirebooter3065067822957865120.jar C:\Users\Tzq\AppData\Local\Temp\surefire1501358664640384527 2019-07-08T14-56-16_613-jvmRun1 surefire3155946435393653827tmp surefire_05126115335102949700tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Tzq\IdeaProjects\ws_prj1\edu-pss\target\test-classes;C:\Users\Tzq\IdeaProjects\ws_prj1\edu-pss\target\classes;D:\javaroot\localRepository_global\commons-dbutils\commons-dbutils\1.6\commons-dbutils-1.6.jar;D:\javaroot\localRepository_global\mysql\mysql-connector-java\5.1.47\mysql-connector-java-5.1.47.jar;D:\javaroot\localRepository_global\org\apache\poi\poi\3.11\poi-3.11.jar;D:\javaroot\localRepository_global\org\apache\poi\poi-ooxml\3.11\poi-ooxml-3.11.jar;D:\javaroot\localRepository_global\org\apache\poi\poi-ooxml-schemas\3.11\poi-ooxml-schemas-3.11.jar;D:\javaroot\localRepository_global\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;D:\javaroot\localRepository_global\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\javaroot\localRepository_global\com\liuvei\common\liuvei-common\1.0.0\liuvei-common-1.0.0.jar;D:\javaroot\localRepository_global\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;D:\javaroot\localRepository_global\org\json\json\20160810\json-20160810.jar;D:\javaroot\localRepository_global\com\mchange\c3p0\0.9.5.2\c3p0-0.9.5.2.jar;D:\javaroot\localRepository_global\com\mchange\mchange-commons-java\0.2.11\mchange-commons-java-0.2.11.jar;D:\javaroot\localRepository_global\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;D:\javaroot\localRepository_global\javax\servlet\jsp\jsp-api\2.2\jsp-api-2.2.jar;D:\javaroot\localRepository_global\jstl\jstl\1.2\jstl-1.2.jar;D:\javaroot\localRepository_global\taglibs\standard\1.1.2\standard-1.1.2.jar;D:\javaroot\localRepository_global\junit\junit\4.11\junit-4.11.jar;D:\javaroot\localRepository_global\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Tzq"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Java\jdk1.8\jre"/>
+    <property name="basedir" value="C:\Users\Tzq\IdeaProjects\ws_prj1\edu-pss"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Tzq\AppData\Local\Temp\surefire1501358664640384527\surefirebooter3065067822957865120.jar"/>
+    <property name="sun.boot.class.path" value="D:\Java\jdk1.8\jre\lib\resources.jar;D:\Java\jdk1.8\jre\lib\rt.jar;D:\Java\jdk1.8\jre\lib\sunrsasign.jar;D:\Java\jdk1.8\jre\lib\jsse.jar;D:\Java\jdk1.8\jre\lib\jce.jar;D:\Java\jdk1.8\jre\lib\charsets.jar;D:\Java\jdk1.8\jre\lib\jfr.jar;D:\Java\jdk1.8\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_172-b11"/>
+    <property name="user.name" value="Tzq"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\Java\jdk1.8\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\javaroot\localRepository_global"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Tzq\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_172"/>
+    <property name="user.dir" value="C:\Users\Tzq\IdeaProjects\ws_prj1\edu-pss"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="idea.version2019.1.3" value="true"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Java\jdk1.8\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Java\jdk1.8\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Tzq\AppData\Local\Android\Sdk\tools;C:\Users\Tzq\AppData\Local\Android\Sdk\platform-tools;D:\Program Files\MySQL\mysql-5.7.17-winx64\bin;D:\IDE\apache-tomcat-8.5.39\lib;D:\IDE\apache-tomcat-8.5.39\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;D:\IDE\apache-maven-3.6.0\bin;C:\Users\Tzq\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.172-b11"/>
+    <property name="java.ext.dirs" value="D:\Java\jdk1.8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="FormatDate" classname="cn.test.test.ABCTest" time="0.011"/>
+  <testcase name="test" classname="cn.test.test.ABCTest" time="0.001"/>
+  <testcase name="Test6" classname="cn.test.test.ABCTest" time="0.043"/>
+  <testcase name="test2" classname="cn.test.test.ABCTest" time="3.386">
+    <error message="java.lang.RuntimeException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column &apos;GName&apos; cannot be null" type="java.lang.RuntimeException">java.lang.RuntimeException: java.lang.RuntimeException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'GName' cannot be null
+	at cn.test.test.ABCTest.test2(ABCTest.java:53)
+Caused by: java.lang.RuntimeException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'GName' cannot be null
+	at cn.test.test.ABCTest.test2(ABCTest.java:53)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'GName' cannot be null
+	at cn.test.test.ABCTest.test2(ABCTest.java:53)
+</error>
+    <system-err><![CDATA[七月 08, 2019 2:56:18 下午 com.mchange.v2.log.MLog 
+信息: MLog clients using java 1.4+ standard logging.
+七月 08, 2019 2:56:20 下午 com.mchange.v2.c3p0.C3P0Registry 
+信息: Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+七月 08, 2019 2:56:20 下午 com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource 
+信息: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> con_test, breakAfterAcquireFailure -> false, checkoutTimeout -> 30000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgebk2a31ltc7cd1569cgi|60f82f98, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgebk2a31ltc7cd1569cgi|60f82f98, idleConnectionTestPeriod -> 30, initialPoolSize -> 50, jdbcUrl -> jdbc:mysql://localhost:3306/stock?useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 30, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 200, maxStatements -> 200, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'GName' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2495)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1903)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2124)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2058)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5158)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2043)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:384)
+	at com.liuvei.common.DbFun.updateInt(DbFun.java:344)
+	at com.liuvei.common.DbFun.update(DbFun.java:313)
+	at edu.pss.dao.impl.OutBoundDaoImpl.insert(OutBoundDaoImpl.java:84)
+	at cn.test.test.ABCTest.test2(ABCTest.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+java.lang.RuntimeException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'GName' cannot be null
+	at com.liuvei.common.DbFun.updateInt(DbFun.java:349)
+	at com.liuvei.common.DbFun.update(DbFun.java:313)
+	at edu.pss.dao.impl.OutBoundDaoImpl.insert(OutBoundDaoImpl.java:84)
+	at cn.test.test.ABCTest.test2(ABCTest.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'GName' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2495)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1903)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2124)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2058)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5158)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2043)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:384)
+	at com.liuvei.common.DbFun.updateInt(DbFun.java:344)
+	... 28 more
+]]></system-err>
+  </testcase>
+  <testcase name="test3" classname="cn.test.test.ABCTest" time="2.382"/>
+  <testcase name="test4" classname="cn.test.test.ABCTest" time="0"/>
+  <testcase name="test5" classname="cn.test.test.ABCTest" time="0"/>
+</testsuite>
