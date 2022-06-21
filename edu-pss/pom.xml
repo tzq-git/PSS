@@ -16,7 +16,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
 
-    <jdbc.mysql.version>5.1.47</jdbc.mysql.version>
+    <jdbc.mysql.version>8.0.28</jdbc.mysql.version>
 
     <javaee31.servletapi.version>3.1.0</javaee31.servletapi.version>
     <javaee31.jspapi.version>2.2</javaee31.jspapi.version>
